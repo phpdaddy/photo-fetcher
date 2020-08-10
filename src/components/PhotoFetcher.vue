@@ -46,13 +46,13 @@
     @Component
     export default class PhotoFetcher extends Vue {
         grayscale = false;
-        seed = new Date();
+        seed: Date = new Date();
         url = 'https://picsum.photos/seed/';
         isx = 350;
         isy = 255;
 
 
-        imageSrc(index: number) {
+        imageSrc(index: number): string {
             return this.url + this.seed + index + '/' + this.isx + '/' + this.isy + (this.grayscale ? '?grayscale' : '');
         }
 

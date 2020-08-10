@@ -10,7 +10,7 @@
     $h1-font-size: 30px;
     $headings-font-weight: 400;
     $grid-gutter-width: 15px;
-    // Webpack example
+
     @import '~bootstrap';
     @import '~bootstrap-vue';
 

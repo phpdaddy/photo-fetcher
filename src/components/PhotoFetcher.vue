@@ -13,27 +13,27 @@
                     </b-form-checkbox>
                 </b-col>
                 <b-col class="d-flex justify-content-end">
-                    <b-button variant="primary" v-on:click="fetchNew">Fetch new photos</b-button>
+                    <b-button variant="primary" @click="fetchNew">Fetch new photos</b-button>
                 </b-col>
             </b-row>
             <b-row class="mb">
                 <b-col class="d-flex justify-content-start">
                     <b-img class="w-100"
-                           v-bind:src="imageSrc(1)"></b-img>
+                           :src="imageSrc(1)"></b-img>
                 </b-col>
                 <b-col class="d-flex justify-content-end">
                     <b-img class="w-100"
-                           v-bind:src="imageSrc(2)"></b-img>
+                           :src="imageSrc(2)"></b-img>
                 </b-col>
             </b-row>
             <b-row>
                 <b-col class="d-flex justify-content-start">
                     <b-img class="w-100"
-                           v-bind:src="imageSrc(3)"></b-img>
+                           :src="imageSrc(3)"></b-img>
                 </b-col>
                 <b-col class="d-flex justify-content-end">
                     <b-img class="w-100"
-                           v-bind:src="imageSrc(4)"></b-img>
+                           :src="imageSrc(4)"></b-img>
                 </b-col>
             </b-row>
         </b-container>
